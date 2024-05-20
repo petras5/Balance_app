@@ -1,0 +1,105 @@
+
+.title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header
+{
+    padding: 5%;
+    background-color: #ff9900;
+    color: white;
+}
+
+.header ul li a
+{
+    text-decoration: none; 
+    color: white;
+    list-style-type: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 10px;
+}
+
+.header ul li a:hover
+{
+    background-color: #ffcc00;
+    color: gray;
+    border-radius: 15px;
+}
+
+.header ul li
+{
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+}
+
+
+table
+{
+    padding: 5px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td:nth-child(2)
+{
+    text-align: center;
+}
+
+td:last-child
+{
+    text-align: right;
+    font-weight: bold;
+}
+
+tr
+{
+    border-bottom: 1px solid grey;
+}
+
+td.total
+{
+    border-top: 2px solid black;
+}
+
+tr.total
+{
+    font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color:#ff9900;
+}
+
+td.expense_form
+{
+    text-align: left;
+}
+
+button
+{
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover
+{
+    opacity: .7;
+}
